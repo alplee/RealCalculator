@@ -18,6 +18,7 @@
 		904040311779B69900E785A0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 904040301779B69900E785A0 /* Default-568h@2x.png */; };
 		904040341779B69900E785A0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904040321779B69900E785A0 /* MainStoryboard.storyboard */; };
 		904040371779B69900E785A0 /* calculateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904040361779B69900E785A0 /* calculateViewController.m */; };
+		9040403F1779BE0200E785A0 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9040403E1779BE0200E785A0 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		904040331779B69900E785A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		904040351779B69900E785A0 /* calculateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calculateViewController.h; sourceTree = "<group>"; };
 		904040361779B69900E785A0 /* calculateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculateViewController.m; sourceTree = "<group>"; };
+		9040403D1779BE0200E785A0 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		9040403E1779BE0200E785A0 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				9040402A1779B69900E785A0 /* calculateAppDelegate.m */,
 				904040321779B69900E785A0 /* MainStoryboard.storyboard */,
 				904040351779B69900E785A0 /* calculateViewController.h */,
+				9040403D1779BE0200E785A0 /* Calculator.h */,
+				9040403E1779BE0200E785A0 /* Calculator.m */,
 				904040361779B69900E785A0 /* calculateViewController.m */,
 				904040211779B69900E785A0 /* Supporting Files */,
 			);
@@ -177,6 +182,7 @@
 				904040271779B69900E785A0 /* main.m in Sources */,
 				9040402B1779B69900E785A0 /* calculateAppDelegate.m in Sources */,
 				904040371779B69900E785A0 /* calculateViewController.m in Sources */,
+				9040403F1779BE0200E785A0 /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +270,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RealCalculator/RealCalculator-Prefix.pch";
 				INFOPLIST_FILE = "RealCalculator/RealCalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +282,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RealCalculator/RealCalculator-Prefix.pch";
 				INFOPLIST_FILE = "RealCalculator/RealCalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
